@@ -18,6 +18,7 @@
             "payment_mode": "Płatność Standardowa",
             "variant": "1K",
             "full_law_service": "Nie (Ograniczona Liczba Rospraw)",
+            "file": "google.com"
             "initial_payment": "2000",
             "installments": [
                 {
