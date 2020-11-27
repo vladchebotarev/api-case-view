@@ -1,64 +1,66 @@
 {
-    "id": 1,
-    "first_name": "Jan",
-    "last_name": "Kowalski",
-    "case_number": "123",
-    "unk": "KP/201020/123456",
-    "phone": "800 800 800",
-    "email": "dev@anulujkredyt.pl",
-    "city": "Kraków",
-    "sales_agreement": {
+    "case": {
         "id": 1,
-        "date_creation": "2020-01-01",
-        "city_creation": "Kraków",
-        "date_sign": "2020-05-01",
-        "firm": "Kancelaria Prosperitas Sp. z o.o. Sp. k. - NIP: 6762577474",
-        "firm_representation": "Michała Chmielowskiego",
-        "payment_mode": "Płatność Standardowa",
-        "variant": "1K",
-        "full_law_service": "Nie (Ograniczona Liczba Rospraw)",
-        "initial_payment": "2000",
-        "installments": [
-            {
-                "number": 1,
-                "days": "30"
+        "first_name": "Jan",
+        "last_name": "Kowalski",
+        "case_number": "123",
+        "unk": "KP/201020/123456",
+        "phone": "800 800 800",
+        "email": "dev@anulujkredyt.pl",
+        "city": "Kraków",
+        "sales_agreement": {
+            "id": 1,
+            "date_creation": "2020-01-01",
+            "city_creation": "Kraków",
+            "date_sign": "2020-05-01",
+            "firm": "Kancelaria Prosperitas Sp. z o.o. Sp. k. - NIP: 6762577474",
+            "firm_representation": "Michała Chmielowskiego",
+            "payment_mode": "Płatność Standardowa",
+            "variant": "1K",
+            "full_law_service": "Nie (Ograniczona Liczba Rospraw)",
+            "initial_payment": "2000",
+            "installments": [
+                {
+                    "number": 1,
+                    "days": "30"
             },
-            {
-                "number": 2,
-                "days": "30"
+                {
+                    "number": 2,
+                    "days": "30"
             },
-            {
-                "number": 3,
-                "days": "30"
+                {
+                    "number": 3,
+                    "days": "30"
             },
-            {
-                "number": 4,
-                "days": "30"
+                {
+                    "number": 4,
+                    "days": "30"
             }
         ],
-        "subscription": "200",
-        "success_fee": "20",
-        "hearing_price": "129",
-        "post_service_price": "89",
-        "customers": [
-            {
-                "id": 1,
-                "first_name": "Jan",
-                "last_name": "Kowalski",
-                "pesel": "95090411670",
-                "address": "ul. Tarłowska 12/15",
-                "zip": "31-102",
-                "city": "Kraków"
+            "subscription": "200",
+            "success_fee": "20",
+            "hearing_price": "129",
+            "post_service_price": "89",
+            "customers": [
+                {
+                    "id": 1,
+                    "first_name": "Jan",
+                    "last_name": "Kowalski",
+                    "pesel": "95090411670",
+                    "address": "ul. Tarłowska 12/15",
+                    "zip": "31-102",
+                    "city": "Kraków"
             },
-            {
-                "id": 2,
-                "first_name": "Ana",
-                "last_name": "Nowak",
-                "pesel": "95090411670",
-                "address": "ul. Tarłowska 12/15",
-                "zip": "31-102",
-                "city": "Kraków"
+                {
+                    "id": 2,
+                    "first_name": "Ana",
+                    "last_name": "Nowak",
+                    "pesel": "95090411670",
+                    "address": "ul. Tarłowska 12/15",
+                    "zip": "31-102",
+                    "city": "Kraków"
             }
         ]
+        }
     }
 }
