@@ -1,67 +1,166 @@
 {
-    "case": {
-        "id": 1,
-        "first_name": "Jan",
-        "last_name": "Kowalski",
-        "case_number": "123",
-        "unk": "KP/201020/123456",
-        "phone": "800 800 800",
-        "email": "dev@anulujkredyt.pl",
-        "city": "Kraków",
-        "sales_agreement": {
-            "id": 1,
-            "date_creation": "2020-01-01",
-            "city_creation": "Kraków",
-            "date_sign": "2020-05-01",
-            "firm": "Kancelaria Prosperitas Sp. z o.o. Sp. k. - NIP: 6762577474",
-            "firm_representation": "Michała Chmielowskiego",
-            "payment_mode": "Płatność Standardowa",
-            "variant": "1K",
-            "full_law_service": "Nie (Ograniczona Liczba Rospraw)",
-            "file": "google.com",
-            "initial_payment": "2000",
-            "installments": [
-                {
-                    "number": 1,
-                    "days": "30"
-            },
-                {
-                    "number": 2,
-                    "days": "30"
-            },
-                {
-                    "number": 3,
-                    "days": "30"
-            },
-                {
-                    "number": 4,
-                    "days": "30"
-            }
-        ],
-            "subscription": "200",
-            "success_fee": "20",
-            "hearing_price": "129",
-            "post_service_price": "89",
-            "customers": [
-                {
-                    "id": 1,
-                    "first_name": "Jan",
-                    "last_name": "Kowalski",
-                    "pesel": "95090411670",
-                    "address": "ul. Tarłowska 12/15",
-                    "zip": "31-102",
-                    "city": "Kraków"
-            },
-                {
-                    "id": 2,
-                    "first_name": "Ana",
-                    "last_name": "Nowak",
-                    "pesel": "95090411670",
-                    "address": "ul. Tarłowska 12/15",
-                    "zip": "31-102",
-                    "city": "Kraków"
-            }
-        ]
+  "case": {
+    "id": 1,
+    "first_name": "Jan",
+    "last_name": "Kowalski",
+    "case_number": "123",
+    "unk": "KP/201020/123456",
+    "phone": "800 800 800",
+    "email": "dev@anulujkredyt.pl",
+    "city": "Kraków",
+    "sales_agreement": {
+      "id": 1,
+      "date_creation": "2020-01-01",
+      "city_creation": "Kraków",
+      "date_sign": "2020-05-01",
+      "firm": "Kancelaria Prosperitas Sp. z o.o. Sp. k. - NIP: 6762577474",
+      "firm_representation": "Michała Chmielowskiego",
+      "payment_mode": "Płatność Standardowa",
+      "variant": "1K",
+      "full_law_service": "Nie (Ograniczona Liczba Rospraw)",
+      "file": "google.com",
+      "initial_payment": "2000",
+      "installments": [
+        {
+          "number": 1,
+          "days": "30"
+        },
+        {
+          "number": 2,
+          "days": "30"
+        },
+        {
+          "number": 3,
+          "days": "30"
+        },
+        {
+          "number": 4,
+          "days": "30"
         }
+      ],
+      "subscription": "200",
+      "success_fee": "20",
+      "hearing_price": "129",
+      "post_service_price": "89",
+      "customers": [
+        {
+          "id": 1,
+          "first_name": "Jan",
+          "last_name": "Kowalski",
+          "pesel": "95090411670",
+          "address": "ul. Tarłowska 12/15",
+          "zip": "31-102",
+          "city": "Kraków"
+        },
+        {
+          "id": 2,
+          "first_name": "Ana",
+          "last_name": "Nowak",
+          "pesel": "95090411670",
+          "address": "ul. Tarłowska 12/15",
+          "zip": "31-102",
+          "city": "Kraków"
+        }
+      ]
+    },
+    "credit_agreement": {
+      "id": 1,
+      "number": "123/123/123",
+      "date": "2010-01-01",
+      "bank_agreement": 1,
+      "bank_current": 1,
+      "type": "I",
+      "credit_amount": "200000",
+      "credit_period": "360",
+      "libor": "3M",
+      "installment_type": "R",
+      "repayment_day": "20",
+      "year_days": "365",
+      "grace_period": "6",
+      "margins": [
+        {
+          "id": 1,
+          "margin": "3.5",
+          "from": "2005-01-01",
+          "to": "2010-01-01"
+        },
+        {
+          "id": 2,
+          "margin": "2.5",
+          "from": "2010-01-01",
+          "to": "2015-01-01"
+        }
+      ],
+      "tranches": [
+        {
+          "id": 1,
+          "date": "2005-01-01",
+          "currency": "PLN",
+          "amount_pln": "200000.00",
+          "amount_chf": "50000.00",
+          "rate_chf_bank": "2.90",
+          "rate_chf_nbp": "3.05"
+        },
+        {
+          "id": 2,
+          "date": "2005-05-01",
+          "currency": "PLN",
+          "amount_pln": "200000.00",
+          "amount_chf": "50000.00",
+          "rate_chf_bank": "2.90",
+          "rate_chf_nbp": "3.05"
+        }
+      ]
     }
+  },
+  "options": {
+    "bank_list": [
+      {
+        "id": 1,
+        "name": "mBank S.A.",
+        "exist": true
+      },
+      {
+        "id": 2,
+        "name": "BPH S.A.",
+        "exist": true
+      },
+      {
+        "id": 2,
+        "name": "BZ WBK S.A.",
+        "exist": false
+      }
+    ],
+    "credit_types": [
+      {
+        "id": "I",
+        "name": "Indeksowany"
+      },
+      {
+        "id": "D",
+        "name": "Denominowany"
+      }
+    ],
+    "libor_types": [
+      {
+        "value": "3M"
+      },
+      {
+        "value": "6M"
+      },
+      {
+        "value": "9M"
+      }
+    ],
+    "installment_types": [
+      {
+        "id": "R",
+        "name": "Równe"
+      },
+      {
+        "id": "M",
+        "name": "Malejące"
+      }
+    ]
+  }
 }
