@@ -63,7 +63,7 @@
         }
       ]
     },
-    "credit_agreement": {
+    "loan_agreement": {
       "id": 1,
       "number": "123/123/123",
       "date": "2010-01-01",
@@ -79,10 +79,13 @@
         "id": "I",
         "name": "Indeksowany"
       },
-      "credit_amount": "200000",
-      "credit_period": "360",
+      "loan_amount": "200000.00",
+      "loan_period": "360",
       "libor": "3M",
-      "installment_type": "R",
+      "installment_type": {
+        "id": "R",
+        "name": "Równe"
+      },
       "repayment_day": "20",
       "year_days": "365",
       "grace_period": "6",
@@ -140,7 +143,7 @@
         "exist": false
       }
     ],
-    "credit_types": [
+    "loan_types": [
       {
         "id": "I",
         "name": "Indeksowany"
