@@ -76,7 +76,8 @@
         "name": "mBank S.A."
       },
       "type": {
-        "id": "I"
+        "id": "I",
+        "name": "Indeksowany"
       },
       "credit_amount": "200000",
       "credit_period": "360",
