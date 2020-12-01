@@ -67,8 +67,14 @@
       "id": 1,
       "number": "123/123/123",
       "date": "2010-01-01",
-      "bank_agreement": 1,
-      "bank_current": 1,
+      "bank_agreement": {
+        "id": 1,
+        "name": "mBank S.A."
+      },
+      "bank_current": {
+        "id": 1,
+        "name": "mBank S.A."
+      },
       "type": "I",
       "credit_amount": "200000",
       "credit_period": "360",
