@@ -123,7 +123,121 @@
           "rate_chf_nbp": "3.05"
         }
       ]
-    }
+    },
+    "bank_certificates": [
+        {
+          id: 1,
+          number: 'ZAS/123/1',
+          date: '2020-01-01',
+          date_extension: '2020-06-06',
+          extension_month: '12',
+          debt_amount: '100 000.00',
+          payments_sum_pln: '200 000.00',
+          payments_sum_chf: '50 000.00',
+          fees: [
+            {
+              id: 1,
+              date: '2005-01-01',
+              currency: 'PLN',
+              amount_pln: '500.00',
+              amount_chf: '100.00',
+              rate_chf_bank: '2.90',
+              rate_chf_nbp: '3.05',
+              increases_amount: 'Tak',
+              own_resources: 'Nie',
+              description: 'Uruchomienie transzy'
+            },
+            {
+              id: 2,
+              date: '2006-01-01',
+              currency: 'PLN',
+              amount_pln: '500.00',
+              amount_chf: '100.00',
+              rate_chf_bank: '2.90',
+              rate_chf_nbp: '3.05',
+              increases_amount: 'Tak',
+              own_resources: 'Nie',
+              description: 'Uruchomienie transzy'
+            }
+          ],
+          overpayments: [
+            {
+              id: 1,
+              date: '2005-01-01',
+              currency: 'PLN',
+              amount_pln: '500.00',
+              amount_chf: '100.00',
+              rate_chf_bank: '2.90',
+              rate_chf_nbp: '3.05'
+            },
+            {
+              id: 2,
+              date: '2006-01-01',
+              currency: 'PLN',
+              amount_pln: '500.00',
+              amount_chf: '100.00',
+              rate_chf_bank: '2.90',
+              rate_chf_nbp: '3.05'
+            }
+          ]
+        },
+        {
+          id: 2,
+          number: 'ZAS/123/2',
+          date: '2020-01-01',
+          date_extension: '2020-06-06',
+          extension_month: '12',
+          debt_amount: '100 000.00',
+          payments_sum_pln: '200 000.00',
+          payments_sum_chf: '50 000.00',
+          fees: [
+            {
+              id: 1,
+              date: '2005-01-01',
+              currency: 'PLN',
+              amount_pln: '500.00',
+              amount_chf: '100.00',
+              rate_chf_bank: '2.90',
+              rate_chf_nbp: '3.05',
+              increases_amount: 'Tak',
+              own_resources: 'Nie',
+              description: 'Uruchomienie transzy'
+            },
+            {
+              id: 2,
+              date: '2006-01-01',
+              currency: 'PLN',
+              amount_pln: '500.00',
+              amount_chf: '100.00',
+              rate_chf_bank: '2.90',
+              rate_chf_nbp: '3.05',
+              increases_amount: 'Tak',
+              own_resources: 'Nie',
+              description: 'Uruchomienie transzy'
+            }
+          ],
+          overpayments: [
+            {
+              id: 1,
+              date: '2005-01-01',
+              currency: 'PLN',
+              amount_pln: '500.00',
+              amount_chf: '100.00',
+              rate_chf_bank: '2.90',
+              rate_chf_nbp: '3.05'
+            },
+            {
+              id: 2,
+              date: '2006-01-01',
+              currency: 'PLN',
+              amount_pln: '500.00',
+              amount_chf: '100.00',
+              rate_chf_bank: '2.90',
+              rate_chf_nbp: '3.05'
+            }
+          ]
+        }
+      ]
   },
   "options": {
     "bank_list": [
