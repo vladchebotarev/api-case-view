@@ -199,8 +199,8 @@
             "amount_chf": "100.00",
             "rate_chf_bank": "2.90",
             "rate_chf_nbp": "3.05",
-            "increases_amount": "Tak",
-            "own_resources": "Nie",
+            "increases_amount": "true",
+            "own_resources": "false",
             "description": "Uruchomienie transzy"
           },
           {
@@ -211,8 +211,8 @@
             "amount_chf": "100.00",
             "rate_chf_bank": "2.90",
             "rate_chf_nbp": "3.05",
-            "increases_amount": "Tak",
-            "own_resources": "Nie",
+            "increases_amount": "false",
+            "own_resources": "true",
             "description": "Uruchomienie transzy"
           }
         ],
