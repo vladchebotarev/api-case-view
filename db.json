@@ -237,6 +237,256 @@
           }
         ]
       }
+    ],
+    "simulations": [
+      {
+        "id": 1,
+        "number": "SYM/123/123",
+        "updated_by_user": {
+          "id": 1,
+          "name": "Krystian Niemiec"
+        },
+        "certificate": {
+          "id": 1,
+          "number": "ZAS/123/123"
+        },
+        "date_simulated": "2020-11-29",
+        "date_expiry": "2010-11-29",
+        "sum_payments_pln_10years": "100000.00",
+        "sum_payments_chf_10years": "30000.00",
+        "sum_installments_abusive_clauses": 1.0,
+        "sum_interest_abusive_clauses": 1.0,
+        "sum_principal_abusive_clauses": 1.0,
+        "sum_excessive_payment_abusive_clauses": 1.0,
+        "sum_installments_abusive_clauses_expiry": 1.0,
+        "sum_interest_abusive_clauses_expiry": 1.0,
+        "sum_principal_abusive_clauses_expiry": 1.0,
+        "sum_excessive_payment_abusive_clauses_expiry": 1.0,
+        "sum_installments_no_abusive_clauses_foreign": 1.0,
+        "sum_installments_no_abusive_clauses_local": 1.0,
+        "sum_interest_no_abusive_clauses_foreign": 1.0,
+        "sum_principal_no_abusive_clauses_foreign": 1.0,
+        "sum_excessive_payment_no_abusive_clauses_foreign": 1.0,
+        "sum_installments_no_abusive_clauses_foreign_expiry": 1.0,
+        "sum_installments_no_abusive_clauses_local_expiry": 1.0,
+        "sum_interest_no_abusive_clauses_foreign_expiry": 1.0,
+        "sum_principal_no_abusive_clauses_foreign_expiry": 1.0,
+        "sum_excessive_payment_no_abusive_clauses_foreign_expiry": 1.0,
+        "created_at": "2020-11-29T13:09:04.560131+01:00",
+        "updated_at": "2020-11-29T13:09:04.560140+01:00",
+        "monthly_simulation_abusive_clauses": [
+          {
+            "withAbusiveClauses": true,
+            "rateChf": 2.5331,
+            "date": "23-09-2006",
+            "liability": 78460,
+            "paidInterest": 0,
+            "installment": 0,
+            "installmentInPln": 0,
+            "paidCapital": 0,
+            "accuredInterest": 8.6,
+            "loanOverpayment": 0,
+            "installmentPaymentDay": false,
+            "overpaymentDay": false,
+            "tranchePayoutDay": true,
+            "finished": false,
+            "spread": 1.03
+          },
+          {
+            "withAbusiveClauses": true,
+            "rateChf": 2.5256,
+            "date": "01-10-2006",
+            "liability": 78460,
+            "paidInterest": 68.94,
+            "installment": 375.52,
+            "installmentInPln": 976.87,
+            "paidCapital": 306.58,
+            "accuredInterest": 8.64,
+            "loanOverpayment": 0,
+            "installmentPaymentDay": true,
+            "overpaymentDay": false,
+            "tranchePayoutDay": false,
+            "finished": false,
+            "spread": 1.03
+          },
+          {
+            "withAbusiveClauses": true,
+            "rateChf": 2.4591,
+            "date": "01-11-2006",
+            "liability": 78153.42,
+            "paidInterest": 268.33,
+            "installment": 374.82,
+            "installmentInPln": 949.37,
+            "paidCapital": 106.48,
+            "accuredInterest": 8.62,
+            "loanOverpayment": 0,
+            "installmentPaymentDay": true,
+            "overpaymentDay": false,
+            "tranchePayoutDay": false,
+            "finished": false,
+            "spread": 1.03
+          },
+          {
+            "withAbusiveClauses": true,
+            "rateChf": 2.4241,
+            "date": "01-12-2006",
+            "liability": 78046.94,
+            "paidInterest": 261.16,
+            "installment": 382.77,
+            "installmentInPln": 955.7,
+            "paidCapital": 121.6,
+            "accuredInterest": 8.98,
+            "loanOverpayment": 0,
+            "installmentPaymentDay": true,
+            "overpaymentDay": false,
+            "tranchePayoutDay": false,
+            "finished": false,
+            "spread": 1.03
+          },
+          {
+            "withAbusiveClauses": true,
+            "rateChf": 2.4055,
+            "date": "01-01-2007",
+            "liability": 77925.34,
+            "paidInterest": 283.2,
+            "installment": 389.32,
+            "installmentInPln": 964.6,
+            "paidCapital": 106.12,
+            "accuredInterest": 9.28,
+            "loanOverpayment": 0,
+            "installmentPaymentDay": true,
+            "overpaymentDay": false,
+            "tranchePayoutDay": false,
+            "finished": false,
+            "spread": 1.03
+          },
+          {
+            "withAbusiveClauses": true,
+            "rateChf": 2.4453,
+            "date": "01-02-2007",
+            "liability": 77819.22,
+            "paidInterest": 288.66,
+            "installment": 391.19,
+            "installmentInPln": 985.28,
+            "paidCapital": 102.53,
+            "accuredInterest": 9.35,
+            "loanOverpayment": 0,
+            "installmentPaymentDay": true,
+            "overpaymentDay": false,
+            "tranchePayoutDay": false,
+            "finished": false,
+            "spread": 1.03
+          },
+          {
+            "withAbusiveClauses": true,
+            "rateChf": 2.4552,
+            "date": "01-03-2007",
+            "liability": 77716.69,
+            "paidInterest": 261.73,
+            "installment": 393.19,
+            "installmentInPln": 994.33,
+            "paidCapital": 131.47,
+            "accuredInterest": 9.43,
+            "loanOverpayment": 0,
+            "installmentPaymentDay": true,
+            "overpaymentDay": false,
+            "tranchePayoutDay": false,
+            "finished": false,
+            "spread": 1.03
+          },
+          {
+            "withAbusiveClauses": true,
+            "rateChf": 2.3988,
+            "date": "01-04-2007",
+            "liability": 77585.22,
+            "paidInterest": 296.21,
+            "installment": 397.12,
+            "installmentInPln": 981.18,
+            "paidCapital": 100.9,
+            "accuredInterest": 9.6,
+            "loanOverpayment": 0,
+            "installmentPaymentDay": true,
+            "overpaymentDay": false,
+            "tranchePayoutDay": false,
+            "finished": false,
+            "spread": 1.03
+          },
+          {
+            "withAbusiveClauses": true,
+            "rateChf": 2.3201,
+            "date": "01-05-2007",
+            "liability": 77484.32,
+            "paidInterest": 287.19,
+            "installment": 396.56,
+            "installmentInPln": 947.67,
+            "paidCapital": 109.37,
+            "accuredInterest": 9.57,
+            "loanOverpayment": 0,
+            "installmentPaymentDay": true,
+            "overpaymentDay": false,
+            "tranchePayoutDay": false,
+            "finished": false,
+            "spread": 1.03
+          },
+          {
+            "withAbusiveClauses": true,
+            "rateChf": 2.3371,
+            "date": "01-06-2007",
+            "liability": 77374.95,
+            "paidInterest": 299.88,
+            "installment": 403.62,
+            "installmentInPln": 971.61,
+            "paidCapital": 103.75,
+            "accuredInterest": 9.88,
+            "loanOverpayment": 0,
+            "installmentPaymentDay": true,
+            "overpaymentDay": false,
+            "tranchePayoutDay": false,
+            "finished": false,
+            "spread": 1.03
+          },
+          {
+            "withAbusiveClauses": true,
+            "rateChf": 2.2951,
+            "date": "01-07-2007",
+            "liability": 77271.2,
+            "paidInterest": 302.69,
+            "installment": 415.44,
+            "installmentInPln": 982.09,
+            "paidCapital": 112.75,
+            "accuredInterest": 10.41,
+            "loanOverpayment": 0,
+            "installmentPaymentDay": true,
+            "overpaymentDay": false,
+            "tranchePayoutDay": false,
+            "finished": false,
+            "spread": 1.03
+          }
+        ],
+        "monthly_simulation_no_abusive_clauses": {
+          "a": 1
+        },
+        "file_url": "http://127.0.0.1:8000/admin/postsales/simulation/add/"
+      }
+    ],
+    "expertises": [
+      {
+        "id": 1,
+        "updated_by_user": {
+          "id": 1,
+          "name": "Krystian Niemiec"
+        },
+        "simulation": {
+          "id": 1,
+          "number": "SYM/123/123"
+        },
+        "date_generated": "2020-10-10",
+        "type": "LIBOR",
+        "format": "pdf",
+        "file_url": "http://127.0.0.1:8000/admin/postsales/evaluation/add/",
+        "created_at": "2020-11-21T21:11:55.837917+01:00",
+        "updated_at": "2020-11-21T21:16:57.196342+01:00"
+      }
     ]
   },
   "options": {
@@ -286,6 +536,16 @@
       {
         "id": "M",
         "name": "Malejące"
+      }
+    ],
+    "expertise_types": [
+      {
+        "id": "L",
+        "name": "LIBOR"
+      },
+      {
+        "id": "W",
+        "name": "WIBOR"
       }
     ]
   }
